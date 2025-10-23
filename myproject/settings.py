@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(wsrd@6zoml!yqt#(&w)*k7sbcn95i75x56_z-@wzxh@!rwt5j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['connects-website.onrender.com']
+ALLOWED_HOSTS = ['connects-website.onrender.com', "127.0.0.1"]
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog',
+    'connects',
 ]
 
 MIDDLEWARE = [
@@ -103,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'vi-vn'
 
 TIME_ZONE = 'UTC'
 
